@@ -3,6 +3,7 @@
 Aquí se presentara la primera interfaz de practica del tercer semestre de la universidad de guayaquil.
 
 ## Imagen de ejemplo del Proyecto
+![Captura de Pantalla de la Aplicación](https://github.com/userashley/Proyecto/blob/9ca8398b2c9df6bf86778fae85c8860a8fccba1c/Captura%20de%20pantalla%202024-05-10%20111008.png)
 
 ## Panel
 Se agregar un panel principal. Dentro de este se agregaran 2 panel los cuales son panel2 y panel3. Estos panel estaran con codificados con su respectiva posición y tamaño.
