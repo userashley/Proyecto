@@ -7,20 +7,28 @@ Aquí se presentara la primera interfaz de practica del tercer semestre de la un
 ## Panel
 Se agregar un panel principal. Dentro de este se agregaran 2 panel los cuales son panel2 y panel3. Estos panel estaran con codificados con su respectiva posición y tamaño.
 ## Label
-Se agregara varias labels al panel2. Con su respectiva posición y tamaño.Finalmente se realizara el llamado con el metodo panel2.getChildren().addAll(label1, label2,label3,label4,label5);
+Se agregara varias labels al panel2. Con su respectiva posición y tamaño.Finalmente se realizara el llamado con el metodo:
+    
+    panel2.getChildren().addAll(label1, label2,label3,label4,label5);
+
 ## Image 
-Se crea una Image image = new Image (getClass().getResourceAsStream("/image/imagen1.jpg"));
+Se crea una Image:
 Este método agrega imágenes a cada label utilizando una URL de imagen. Tiene sus respectivas posiciones y tamaño.
+    
+    Image image = new Image (getClass().getResourceAsStream("/image/imagen1.jpg"));
 ## Scrollbar
-Se agrega un scrollbar en la parte izquierda y de manera vertical dentro del panel2.getChildren().add(scrollbar);.
+Se agrega un scrollbar en la parte izquierda y de manera vertical dentro del panel2.getChildren().add(scrollbar);
+
 	        ScrollBar scrollbar = new ScrollBar(); 
-	        scrollbar.setOrientation(javafx.geometry.Orientation.VERTICAL);
+	scrollbar.setOrientation(javafx.geometry.Orientation.VERTICAL);
 ## ListView
-Se agrega una listView en el panel principal:
-ObservableList<String> items = FXCollections.observableArrayList();// Agregar ListView
+Se agrega una listView en el panel principal: 
+
+        ObservableList<String> items = FXCollections.observableArrayList();// Agregar ListView
             items.addAll("Item 1", "Item 2", "Item 3", "Item 4", "Item 5", "Item 6", "Item 7", "Item 8", "Item 9", "Item 10" );
-            ListView<String> listView = new ListView<>(items);
+	    ListView<String> listView = new ListView<>(items); 
 Con su respectiva posicion y tamaño: 
+
             listView.setLayoutX(250);
             listView.setLayoutY(10);
             listView.setPrefWidth(220);
